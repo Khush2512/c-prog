@@ -35,7 +35,7 @@ public:
 };
 int main()
 {
-    Product p1,p2(2,"tea",200,"Food"),p3(p2);
+    Product p1,p2(2,"tea",200,"Food"),p3(p3);
     p1.disp();
     p2.disp();
     p3.disp();
